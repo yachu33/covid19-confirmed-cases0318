@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+    
+</head>
+<body>
+    
+    <script src="script.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/7.12.0/firebase-app.js"></script>
+    
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/7.12.0/firebase-analytics.js"></script>
+    
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+    <div class="card" style="margin:1em">
+        <div class="card-body">
+            <h6 class="card-title">資料說名: </h6>
+            <p class="card-text">此圖為COVID-19全球確診人數的分級著色圖，確診人數愈高顏色則愈深，
+                將滑鼠移至國家上會顯示該國在「2020/03/18」確診的實際人數，
+                從地圖中可以看出中國和義大利的顏色最深，為目前確診人數最多的兩個國家，
+            台灣的確診人數也在當天破百。</p>
+            <h6 class="card-title">資料來源: <a
+                    href="https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv">
+                    JHU CSSE</a></h6>
+            
+        </div>
+    </div>
+</body>
+</html>
